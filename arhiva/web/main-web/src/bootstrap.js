@@ -1,0 +1,12 @@
+import React from 'react';
+import ReactDOM from 'react-dom';
+import App from './App';
+
+const token = 'eyJhbGciOiJSUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjV3TUFGa1c5Q19BeF9mLTF0dXZDQSJ9.eyJpc3MiOiJodHRwczovL2Rldi11azlvenAwNS51cy5hdXRoMC5jb20vIiwic3ViIjoiY3FUbTR6MmlqaGM0VjNEaGRnbFBOWXVpbE85RDUzSEFAY2xpZW50cyIsImF1ZCI6Imh0dHBzOi8vYXBpLWdhdGV3YXk6ODA5NCIsImlhdCI6MTY3Mzk2NTE5NSwiZXhwIjoxNjc2NTU3MTk1LCJhenAiOiJjcVRtNHoyaWpoYzRWM0RoZGdsUE5ZdWlsTzlENTNIQSIsImd0eSI6ImNsaWVudC1jcmVkZW50aWFscyJ9.Js57BDgp7Ppy4wI6nRo7RqkYFhsu04Ge0y_o5BUHYSC_XcxTKgluecioLv6G-0zICtwR2tOwBw8cLJCRFXBw5Ujp9Bj4ecnqYsr0nT_4frlf5giHdesicjD8ObFQf8P-r4Tf5zMlncAUYUOSghvmNJkHkTW_pT0zCYToVJWmYaUFpUcyXUBuXqPRob-ldBQTSVET9LV-aV3O1V_qvI_XpnDnga2mwf9QyH3KdbuqIdqmIrCzMWmbqhn2wxLD72Ju4VZXtdSD_pZVScx74oXn1dqhfOZbsjoDl_UBBByYVlVNvbEpFpdgxrCjceybyzpAEbizmP3oho8VkwrBjNEQPA';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
